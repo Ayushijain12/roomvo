@@ -1,0 +1,182 @@
+.main-div-2{
+    position: relative;
+    flex: 1 1 0%;
+    min-width: 0px;
+    min-height: 0px;
+    height: 100%;
+    background: rgb(255, 255, 255);
+}
+
+.css-toolbar {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    -webkit-box-align: center;
+    align-items: center;
+    gap: 8px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px 0px 8px 8px;
+    z-index: 1100;
+    top: 0px;
+    left: 40px;
+    right: 40px;
+    padding: 12px 8px;
+}
+
+.middle-bar{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    align-items: center;
+    left: 60px;
+    right: 60px;
+    padding: 12px 8px;
+}
+
+.app-bar{
+    display: flex;
+    flex-grow: 1;
+    min-width: 0px;
+    justify-content: center;
+}
+
+.app-bar-sub{
+    width: fit-content;
+    display: flex;
+    gap: 8px;
+    opacity: 1;
+    transition: opacity 1s ease 1s;
+}
+.book-button{
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    outline: 0px;
+    border: 0px;
+    margin: 0px;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    appearance: none;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 1.2;
+    font-family: Inter, sans-serif;
+    padding: 6px 16px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 8px;
+    text-transform: none;
+    height: 2.5rem;
+    font-size: 1rem;
+    background-color: rgb(5, 91, 97);
+    color: rgb(255, 255, 255);
+    box-shadow: none;
+    min-width: fit-content;
+}
+
+.button2{
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: 0px;
+    border: 0px;
+    margin: 0px;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    appearance: none;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 1.2;
+    font-family: Inter, sans-serif;
+    min-width: 64px;
+    padding: 6px 16px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 8px;
+    text-transform: none;
+    height: 2.5rem;
+    font-size: 1rem;
+    color: rgb(47, 51, 55);
+    box-shadow: none;
+}
+
+.vertical-line {
+    margin: 0px;
+    flex-shrink: 0;
+    border-width: 0px thin 0px 0px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.15);
+    height: auto;
+    align-self: stretch;
+}
+
+
+.footer{
+    position: absolute;
+    bottom: calc(env(safe-area-inset-bottom, 0));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    z-index: 1100;
+}
+
+.inner-footer{
+    background-color: rgb(255, 255, 255);
+    padding: 0.75rem 8px;
+    border-radius: 8px 8px 0px 0px;
+    height: 100%;
+}
+.small-text{
+    margin: 0px;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.4;
+    font-family: Inter, sans-serif;
+    color: rgb(47, 51, 55);
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.extra-small-text{
+    margin: 0px;
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgba(47, 51, 55, 0.7);
+}
+
+.inner2{
+    display: flex; align-items: center; gap: 8px; opacity: 1; transition: opacity 1s ease 0s;
+}
+
+.inner3{
+    padding: 0.125rem 0px; min-width: 300px; max-width: none; flex-shrink: 1e+09;
+}
+
+.inner4{
+    margin-inline-start: 8px; min-width: 0px;
+}
+
+.footer-sub{
+    display: flex;
+    flex: 1 1 347px;
+    gap: 8px;
+    overflow: hidden;
+    justify-content: flex-end;
+}
+

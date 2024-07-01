@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "color": "Golden",
+    "img" : "https://www.roomvo.com/static/images/color_family_icons/beige.svg"
+  },
+  {
+    "id": 2,
+    "color": "Brown",
+    "img" : "https://www.roomvo.com/static/images/color_family_icons/brown.svg"
+  },
+  {
+    "id": 3,
+    "color": "Red",
+    "img" : "https://www.roomvo.com/static/images/color_family_icons/red.svg"
+  },
+  {
+    "id": 4,
+    "color": "White",
+    "img" : "https://www.roomvo.com/static/images/color_family_icons/white.svg"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Patterned Navy Rug",
+    "img": "./carpet3.png",
+    "size": "2 sizes",
+    "color": "Golden",
+    "shape": "Square"
+  },
+  {
+    "id": 2,
+    "name": "Geometric Rug",
+    "img": "./carpet2.png",
+    "size": "4 sizes",
+    "color": "Golden",
+    "shape": "Circle"
+  },
+  {
+    "id": 3,
+    "name": "Round Floral Pattern Rug",
+    "img": "./carpet1.jpg",
+    "size": "5 sizes",
+    "color": "Brown",
+    "shape": "Circle"
+  },
+  {
+    "id": 4,
+    "name": "Yellow Tassel Rug",
+    "img": "./carpet-11530930154tqy4zfd3zv.png",
+    "size": "6 sizes",
+    "color": "Red",
+    "shape": "Square"
+  },
+  {
+    "id": 5,
+    "name": "Taupe Rug",
+    "img": "./design-thumbnail.png",
+    "size": "7 sizes",
+    "color": "White",
+    "shape": "Square"
+  },
+  {
+    "id": 6,
+    "name": "Woven Patterned Rug",
+    "img": "./carpet3.png",
+    "size": "3 sizes",
+    "color": "Golden",
+    "shape": "Square"
+  }
+]

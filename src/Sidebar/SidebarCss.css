@@ -1,0 +1,301 @@
+.css-56rbvn {
+    background-color: rgb(255, 255, 255);
+    padding: 16px 16px 8px;
+}
+
+.css-fg4i5t {
+    max-height: 40px;
+    height: 40px;
+    display: block;
+    background: url('/public/company_logo.png') left center / contain no-repeat transparent;
+}
+
+.filter-tab {
+    flex: 1 1 0px;
+    min-height: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-filter {
+    height: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: rgb(255, 255, 255);
+}
+
+.css-11ncnq9 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    gap: 1rem;
+}
+
+.filter-tab1 {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.filter-tab2 {
+    display: flex;
+    gap: 0.5rem;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.serach-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    background-color: transparent;
+    outline: 0px;
+    margin: 0px;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    appearance: none;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5rem;
+    overflow: visible;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, opacity 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 8px;
+    padding: 0px;
+    aspect-ratio: 1 / 1;
+    width: 2.5rem;
+    height: 2.5rem;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 0px 1px inset;
+    border: none;
+    flex: 1 1 0%;
+    color: rgb(47, 51, 55);
+}
+
+.filter-button {
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: 0px;
+    margin: 0px;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    appearance: none;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 1.2;
+    font-family: Inter, sans-serif;
+    min-width: 64px;
+    padding: 5px 16px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    width: 100%;
+    border-radius: 8px;
+    text-transform: none;
+    height: 2.5rem;
+    font-size: 1rem;
+    color: rgb(47, 51, 55);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 0px 1px inset;
+    border: none;
+}
+
+.toggle-filter {
+    display: inline-flex;
+    border-radius: 8px;
+    height: 2.5rem;
+}
+
+.middle-list-tab {
+    height: inherit;
+    max-height: 600px;
+    opacity: 1;
+    display: block;
+    overflow: auto;
+    transition: opacity 1200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.css-nsil2k {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 16px 8px 12px;
+}
+
+
+.small-text1 {
+    margin: 0px;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 1.5;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: rgba(47, 51, 55, 0.7);
+}
+
+.typho {
+    margin: 0px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 1.5;
+    color: rgb(47, 51, 55);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.text-warp {
+    display: flex;
+    flex-direction: column;
+    gap: 0.125rem;
+}
+
+.Expanded-detailed-product-card {
+    display: flex;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    transition: outline-color 0.2s ease 0s;
+    /* outline: rgba(0, 0, 0, 0.3) solid 2px; */
+    outline: rgba(0, 0, 0, 0.1) solid 1px;
+    outline-offset: -2px;
+    border-radius: 8px;
+    padding: 0.4375rem;
+    flex-direction: column;
+    cursor: initial;
+    margin: 4px 0;
+}
+
+.img-card {
+    position: relative;
+    flex-shrink: 0;
+    height: 110px;
+    width: 110px;
+    overflow: hidden;
+}
+
+.css-fcwd8r {
+    object-fit: contain;
+    position: absolute;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+}
+
+.samllest {
+    margin: 0px;
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgba(47, 51, 55, 0.7);
+}
+
+.Filters-menu{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: auto;
+    padding-top: 1rem;
+}
+
+.css-1kzzply {
+    padding-bottom: 1.5rem;
+    overflow-y: auto;
+}
+
+.css-19s3t1h {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.accodian-tab{
+    color: rgb(47, 51, 55);
+    position: relative;
+    transition: margin 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    overflow-anchor: none;
+    border-radius: 0px;
+    border: none;
+    background-color: transparent;
+}
+
+.css-1tdu8us {
+    display: flex;
+    gap: 1rem;
+    padding: 1.5rem 1rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+    border-right-color: rgba(0, 0, 0, 0.15);
+    border-bottom-color: rgba(0, 0, 0, 0.15);
+    border-left-color: rgba(0, 0, 0, 0.15);
+}
+
+.css-1k5dt4u {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    background-color: transparent;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    appearance: none;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 1.2;
+    font-family: Inter, sans-serif;
+    min-width: 64px;
+    padding: 5px 16px;
+    width: 100%;
+    border-radius: 8px;
+    text-transform: none;
+    height: 2.5rem;
+    font-size: 1rem;
+    color: rgb(47, 51, 55) !important;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 0px 1px inset;
+    border: none;
+}
+
+.css-12ffqe8 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    outline: 0px;
+    border: 0px;
+    margin: 0px;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    appearance: none;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 1.2;
+    font-family: Inter, sans-serif;
+    min-width: 64px;
+    padding: 6px 16px;
+    width: 100%;
+    border-radius: 8px;
+    text-transform: none;
+    height: 2.5rem;
+    font-size: 1rem;
+    background-color: rgb(47, 51, 55) !important;
+    color: rgb(255, 255, 255) !important;
+    box-shadow: none;
+}

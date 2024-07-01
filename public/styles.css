@@ -1,0 +1,32 @@
+.main-bar{
+    display: 'flex';
+    flex-direction: 'column';
+    width: '350px';
+    height: '100%';
+}
+
+.css-m0ov95 {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .css-mlk76d {
+    display: flex;
+    height: 100%;
+    width: 100vw;
+    box-sizing: border-box;
+    padding-top: 0px;
+  }
+
+  #right-end-content{
+    position: relative;
+    flex: 1 1 0%;
+    min-width: 0px;
+    min-height: 0px;
+    height: 100%;
+    background: #e3e3e3;
+  }

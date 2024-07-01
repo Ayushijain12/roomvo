@@ -29,6 +29,9 @@ import Checkbox from '@mui/material/Checkbox';
 import Avatar from '@mui/material/Avatar';
 
 
+
+
+
 const Sidebar = () => {
   const [items, setItems] = useState([]);
   const [colors, setColors] = useState([]);
@@ -308,23 +311,29 @@ const Sidebar = () => {
                 }}>
                   <Box>
                     {align === true ? <div>                      {
-                      items.map((product) => (
-                        <Box sx={{
-                          display: 'flex',
-                          flexDirection: 'column',
-                          paddingbottom: '0.625rem',
-                        }}>
-                          <div style={{ flex: '1 1 0%' }} >
-                            <div className='Expanded-detailed-product-card'>
-
-                              <div className='img-card'>
-                                <img className='css-fcwd8r' src={product.img} />
+                      <Box sx={{
+                        display: 'flex',
+                        flexDirection: 'column',
+                        paddingbottom: '0.625rem',
+                      }}>
+                        <div>
+                        <div style={{ display: 'flex', flexDirection: 'row' }}>
+                          {items.map((product) => (
+                            <div style={{ flex: '1 1 0%' }}>
+                              <div className='css-1qksi01'>
+                                <div className='css-1fbnyj3'>
+                                  <img style={{ width: '10%', }} src={product.img} />
+                                </div>
                               </div>
 
                             </div>
-                          </div>
-                        </Box>
-                      ))}</div> :
+                            ))}
+                        </div>
+                      </div>
+                      </Box>}
+                        
+                    </div>
+                      :
                       <div>
                         {
                           items.map((product) => (

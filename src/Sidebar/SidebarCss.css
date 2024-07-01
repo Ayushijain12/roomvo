@@ -58,26 +58,18 @@
     position: relative;
     box-sizing: border-box;
     background-color: transparent;
-    outline: 0px;
-    margin: 0px;
     cursor: pointer;
-    user-select: none;
     vertical-align: middle;
-    appearance: none;
-    text-decoration: none;
     text-align: center;
     font-size: 1.5rem;
     overflow: visible;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, opacity 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
     border-radius: 8px;
-    padding: 0px;
-    aspect-ratio: 1 / 1;
     width: 2.5rem;
     height: 2.5rem;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 0px 1px inset;
     border: none;
     flex: 1 1 0%;
-    color: rgb(47, 51, 55);
+    color: rgb(47, 51, 55) !important;
 }
 
 .filter-button {
@@ -102,13 +94,12 @@
     font-family: Inter, sans-serif;
     min-width: 64px;
     padding: 5px 16px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
     width: 100%;
     border-radius: 8px;
     text-transform: none;
     height: 2.5rem;
     font-size: 1rem;
-    color: rgb(47, 51, 55);
+    color: rgb(47, 51, 55) !important;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 0px 1px inset;
     border: none;
 }

@@ -180,3 +180,15 @@
     justify-content: flex-end;
 }
 
+.icons{
+    color: rgba(47, 51, 55, 0.7);
+    opacity: 1;
+    margin: 10px;
+}
+
+.icons-white{
+    color: white;
+    opacity: 1;
+    margin: 10px;
+}
+
